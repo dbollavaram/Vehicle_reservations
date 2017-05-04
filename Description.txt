@@ -1,0 +1,17 @@
+Two datasets provided:
+vehicles - table of all vehicles and their attributes:
+• technology: 0 if none, 1 if yes (technology that is installed in vehicles that makes them "instantly
+bookable" and unlockable with mobile phone)
+• actual_price: actual daily price for vehicle (owners are able to set whatever price they want)
+• recommended_price: appropriate "market" price for the vehicle, based on our analysis
+• num_images: number of photos of the car
+• street_parking: 0 no, 1 yes
+• description: number of characters of the car description inputted by the owner
+reservations - table of all completed reservations:
+• vehicle_id: vehicle's unique ID
+• reservation_type: 1 is Hourly rental, 2 is Daily, 3 is Weekly
+
+Analysis on:
+• Which of the factors seem to be most important in driving total # of reservations for our vehicles?
+(technology type, pricing, number of car photos, street parking, car description length)
+• How does the car's technology type seem to affect reservations? 
